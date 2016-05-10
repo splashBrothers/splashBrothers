@@ -1,0 +1,44 @@
+<!--
+/*
+    splash brothers  水花兄弟
+*/
+-->
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/>
+<meta content="telephone=no" name="format-detection" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link href="http://demo.com/css/online/index.css" type="text/css" rel="stylesheet">
+<title>首页</title>
+</head>
+<body>
+<div class="header">
+    <div class="head_wrapper">
+        <div id="common_hd" class="relative">
+            <a class="hd_back" href="javascript:history(-1)">返回</a>
+            <a class="my_center" data-for-gaq="个人中心">个人中心</a>
+        </div>
+    </div>
+    <div id="content-wrap">
+
+    </div>
+</div>
+
+<script src="http://demo.com/js/base/sea.js"></script>
+<script>
+	seajs.config({
+        base : 'http://demo.com',
+        alias : {
+            zepto : "js/base/zepto"
+        }
+    });
+    seajs.use("js/index/index",function(Index){
+        Index.init();
+    });
+</script>
+</body>
+</html>

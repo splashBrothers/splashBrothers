@@ -1,0 +1,10 @@
+
+
+/*返回箭头*/
+
+#common_hd{ background: #fff; height: 45px; }
+.hd_back{width: 40px;height: 44px;left: 0;top: 0px;background: 0;padding-left: 36px; padding-top: 10px; position: absolute; height: 35px;}
+
+.hd_back:before{content: "";width: 10px;height: 10px;position: absolute;top: 16px;left: 21px;border-bottom: 1px solid #5d5d5d;border-right: 1px solid #5d5d5d;-webkit-transform: rotate(135deg);-moz-transform: rotate(135deg);-ms-transform: rotate(135deg);-o-transform: rotate(135deg);transform: rotate(135deg);}
+
+.my_center{ position: absolute; right: 10px; top: 0px; padding-top: 10px;height: 35px;}
